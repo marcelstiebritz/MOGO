@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <link rel="stylesheet" href="Design.css">
+    <meta charset="UTF-8">
+    <title>MoGo</title>
+
+
+
+</head>
+<div>
+
+</div>
+<body>
+    <section class="header">
+        <nav id ="navbar" >
+            <a href="Main.html"></a>
+            <div class="nav-links">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Service</a></li>
+                    <li><a href="">Work</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Cart</a></li>
+                    <li><a href="">Search</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class = "text-box">
+            <h1>Welcome to mogo</h1>
+            <a href=""class="Leran-More-Button">Learn more</a>
+        </div>
+    </section>
+   <!----------Course---------->
+
+    <section class="course">
+        <h1>What we do</h1>
+        <h2> Story About us</h2>
+        <p>Ganz Normaler text der hier rein muss</p>
+        <div class="row">
+            <div class="course-col">
+                <h3> Hier 3 Bilder einfügen </h3>
+            </div>
+            <div class="course-col">
+                <h3> Hier 3 Bilder einfügen </h3>
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <!--------Javascript for Mobile toggle----------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+</script>
+</body>
+</html>
